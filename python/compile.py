@@ -21,6 +21,6 @@ def use_gcc(lang,name,gl,libs):
   global lang_exts
   lib_arg=''
   if libs:
-    lib_arg+=get_file_arguments(remove_ext
+    lib_arg+=get_arguments(remove_ext
   get_file_types(os.listdir(os.getcwd()+'\\src'),lang_exts[get_lang(lang)].exts)
   
