@@ -48,3 +48,10 @@ def rem_three(files):
     out+=[file(files[count].no_three())]
     count+=1
   return out
+def as_files(files):
+  count=0
+  out=[]
+  while count<len(files)):
+    out+=[file(files[count])]
+    count+=1
+  return out
